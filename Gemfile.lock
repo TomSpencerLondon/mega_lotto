@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tdog_mega_lotto (3.0)
+    tdog_mega_lotto (3.5)
       rails
 
 GEM
@@ -147,7 +147,7 @@ GEM
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
-    zeitwerk (2.1.9)
+    zeitwerk (2.1.10)
 
 PLATFORMS
   ruby
