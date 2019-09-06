@@ -153,11 +153,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.17)
   pry
   rake (~> 10.0)
   rspec (~> 3.0)
   tdog_mega_lotto!
 
 BUNDLED WITH
-   1.17.3
+   2.0.2
