@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    t_dog_mega_lotto (0.1.0)
+    tdog_mega_lotto (3.0)
       rails
 
 GEM
@@ -157,7 +157,7 @@ DEPENDENCIES
   pry
   rake (~> 10.0)
   rspec (~> 3.0)
-  t_dog_mega_lotto!
+  tdog_mega_lotto!
 
 BUNDLED WITH
    1.17.3
