@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tdog_mega_lotto (3.7)
+    tdog_mega_lotto (3.8)
       rails
 
 GEM
