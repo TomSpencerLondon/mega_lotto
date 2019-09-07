@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
-
 require_relative "../lib/mega_lotto/drawing"
 
 drawing = MegaLotto::Drawing.new
-
 puts drawing.draw
