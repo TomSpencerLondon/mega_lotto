@@ -1,5 +1,8 @@
 require "mega_lotto/version"
 require "mega_lotto/drawing"
+require "mega_lotto/helper"
+require "mega_lotto/configuration"
+require "mega_lotto/railtie" if defined?(Rails)
 
 begin
   require "pry"
@@ -8,5 +11,20 @@ end
 
 module MegaLotto
   class Error < StandardError; end
-  # Your code goes here...
+  
+  class << self
+    attr_accessor :configuration
+  end
+
+  def self.configuration
+    @configuration ||= Configuration.new
+  end
+
+  def self.configure
+    yield(configuration)
+  end
+
+  def self.reset
+    @configuration = Configuration.new
+  end
 end

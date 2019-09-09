@@ -1,7 +1,7 @@
 module MegaLotto
   class Drawing
     def draw
-      5.times.map do
+      MegaLotto.configuration.drawing_count.times.map do
         single_draw
       end
     end

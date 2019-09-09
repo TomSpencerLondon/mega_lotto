@@ -1,3 +1,3 @@
 module MegaLotto
-  VERSION = "3.9"
+  VERSION = "4.0"
 end
